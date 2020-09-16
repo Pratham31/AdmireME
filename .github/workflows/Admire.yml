@@ -28,7 +28,7 @@ jobs:
           pip install numpy
 
       - uses: octokit/graphql-action@v2.x
-        id: send_now
+        id: start_sending
         with:
           query: |
             query send($login:String!){
@@ -45,4 +45,4 @@ jobs:
 
       - name: Send Email
         run: |
-          python ./AdmireMe.py '${{steps.send_now.outputs.data}}' '${{github.repository}}'
+          python ./AdmireMe.py '${{steps.start_sending.outputs.data}}' '${{github.repository}}'

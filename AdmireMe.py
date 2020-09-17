@@ -28,7 +28,7 @@ username=str(parsed_json['user']['login'])
 org=str(sys.argv[2])
 
 # Congratulation Operation
-fnt = ImageFont.truetype("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap", 36)
+fnt = ImageFont.truetype("https://github.com/Pratham31/AdmireME/blob/master/Font/static/RobotoMono-Bold.ttf", 36)
 def create_imageo_with_text(size, text):
     imgo = Image.new('RGB', (600, 50), "white")
     drawo = ImageDraw.Draw(imgo)

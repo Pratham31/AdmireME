@@ -74,13 +74,15 @@ msg.attach(msgText)
 
 # attach image
     
-foreground = Image.open("https://i.ibb.co/tZhss9t/Congratulation.png")
+#foreground = Image.open("https://i.ibb.co/tZhss9t/Congratulation.png")
+foreground=requests.get("https://i.ibb.co/tZhss9t/Congratulation.png")
 response = requests.get(image_url)
+fimg = Image.open(BytesIO(foreground.content))
 img = Image.open(BytesIO(response.content))
-img.paste(foreground, (-20, 0), foreground)
-fimg = MIMEImage(img.read())
-fimg.add_header('Content-Disposition', 'attachment', filename="You.jpg")
-msg.attach(fimg)
+img.paste(fimg, (-20, 0), fimg)
+finalimg = MIMEImage(img.read())
+finalimg.add_header('Content-Disposition', 'attachment', filename="You.jpg")
+msg.attach(finalimg)
 
 
 server.login(sender_mailID, password)

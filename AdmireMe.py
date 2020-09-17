@@ -44,7 +44,6 @@ def rollo(text):
 
 user=username
 
-
 all_texto = """ >> Congratulations!""",user
 """>>Done""".splitlines()
 [rollo(text) for text in all_texto]

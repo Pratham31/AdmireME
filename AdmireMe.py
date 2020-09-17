@@ -28,11 +28,11 @@ username=str(parsed_json['user']['login'])
 org=str(sys.argv[2])
 
 # Congratulation Operation
-fnt = ImageFont.truetype("arial.ttf", 36)
+#fnt = ImageFont.truetype("arial.ttf", 36)
 def create_imageo_with_text(size, text):
     imgo = Image.new('RGB', (600, 50), "white")
     drawo = ImageDraw.Draw(imgo)
-    drawo.text((size[0], size[1]), text, font = fnt, fill="black")
+    drawo.text((size[0], size[1]), text, fill="black")
     return imgo
  
 frameso = []

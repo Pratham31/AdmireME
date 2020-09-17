@@ -14,6 +14,8 @@ This action will **ENCOURAGE** all future **open source contributors** to do mor
 
 <img src="https://github.com/Pratham31/AdmireME/blob/master/Output.gif" height="500" width="700" align="left"></img>
 <br>
+<br>
+<br>
 # How to test?
 
 ## Note:

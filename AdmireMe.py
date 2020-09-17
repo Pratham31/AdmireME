@@ -81,7 +81,7 @@ foreground=requests.get("https://i.ibb.co/tZhss9t/Congratulation.png")
 response = requests.get(image_url)
 fimg = Image.open(BytesIO(foreground.content))
 img = Image.open(BytesIO(response.content))
-img.paste(fimg, (10, 20), fimg)
+img.paste(fimg, (10, 10), fimg)
 #img.save('finals.jpg', quality=95)
 #filename="finals.jpg"
 #f=file(filename)

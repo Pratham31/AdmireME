@@ -10,16 +10,16 @@
 
 You know when you admire someone, something gets happened and the human being feels so motivated and gets Positive vibes for self and starts the day with POSITIVE ENERGY. I just want each and every one student must contribute to open source and must be satisfied. My Action helps to get a smile 😊 on each and every Open Source Contributors and also encourages for contributing.
 
-# What it does?
+# What it does?🤔
 
 It will send Email with **Processed Congratulating Image of user's avatar and congratulating Note GIF**  .
 
-# Aim and Impact
+# Aim and Impact💥
 
 This action will **ENCOURAGE** all future **open source contributors** to do more and more open source contributions and build positive vibes inside contributors
 
 
-# How to test?
+# How to test?🤔
 
 ## Note:
 You have to make your Email ID **PUBLIC** so that action can easily send mail to User.
@@ -35,6 +35,7 @@ You have to make your Email ID **PUBLIC** so that action can easily send mail to
 2. Copy the all repository contents to your repository where you want to add the **Admire ME**.
 
 ## Lets see how I made this Action
+
 ## 1. First of all Setup an Email Sending Account
 
 1. Create a new gmail account for sending the emails to the Contributors.

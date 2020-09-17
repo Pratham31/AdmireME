@@ -18,7 +18,7 @@ This action will **ENCOURAGE** all future **open source contributors** to do mor
 ## Note:
 You have to make your Email ID **PUBLIC** so that action can easily send mail to User.
 
-1. Just open a new issue on this [YouRock](https://github.com/Pratham31/AdmireME) Repo.
+1. Just open a new issue on this [AdmireME](https://github.com/Pratham31/AdmireME) Repo.
 2. You'll receive a personalized email (email account linked to your **Github**)
 
 ![](./.github/YouRockDemo.gif)
@@ -75,5 +75,5 @@ You can change the job triggers according to your need.
 
 [Refer the official document from GitHub on Workflow Syntax.](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions)
 
-## Made with ❤️ by Pratham[https://github.com/Pratham31o]
+## Made with ❤️ by [Pratham](https://github.com/Pratham31)
 ## Give a ⭐ if you like it :)

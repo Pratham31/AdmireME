@@ -14,6 +14,8 @@ import sys
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
+from email.mime.base import MIMEBase 
+from email import encoders
 from urllib.request import urlopen
 import numpy as np
 import os
@@ -80,8 +82,11 @@ response = requests.get(image_url)
 fimg = Image.open(BytesIO(foreground.content))
 img = Image.open(BytesIO(response.content))
 img.paste(fimg, (-20, 0), fimg)
-fin = BytesIO(img)
-finalimg = MIMEImage(fin.read())
+img.save('finals.jpg', quality=95)
+filename="finals.jpg"
+f=file(filename)
+finalimg=MIMEText(f.read())
+#finalimg = MIMEImage(img.read())
 finalimg.add_header('Content-Disposition', 'attachment', filename="You.jpg")
 msg.attach(finalimg)
 

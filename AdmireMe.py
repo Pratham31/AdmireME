@@ -43,7 +43,7 @@ def rollo(text):
         frameso.append(new_frameo)
 
 user=username
-fnt = ImageFont.truetype("arial", 36)
+fnt = ImageFont.truetype("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap", 36)
 
 all_texto = """ >> Congratulations!""",user
 """>>Done""".splitlines()

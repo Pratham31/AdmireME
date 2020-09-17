@@ -75,7 +75,7 @@ You can change the job triggers according to your need.
 
 # How it looks like?
 <p>
-<img src="https://github.com/Pratham31/AdmireME/blob/master/Output.gif" height="500" width="700" align="left"></img>
+<img src="https://github.com/Pratham31/AdmireME/blob/master/Output.gif" height="500" width="900" align="left"></img>
 </p>
 
 ## Made with ❤️ by [Pratham](https://github.com/Pratham31)

@@ -11,7 +11,7 @@ It will send Email with **Processed Congratulating Image of user's avatar and co
 This action will **ENCOURAGE** all future **open source contributors** to do more and more open source contributions and build positive vibes inside contributors
 
 # How it looks like?
-
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/e53hh42cofmdkguvvmgk.gif)
 
 # How to test?
 

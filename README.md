@@ -74,9 +74,6 @@ You can change the job triggers according to your need.
 [Refer the official document from GitHub on Workflow Syntax.](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions)
 
 # How it looks like?
-<p>
-<img src="https://github.com/Pratham31/AdmireME/blob/master/Output.gif" height="500" width="900" align="left"></img>
-</p>
-
+![](./.github/Output.gif)
 ## Made with ❤️ by [Pratham](https://github.com/Pratham31)
 ## Give a ⭐ if you like it :)

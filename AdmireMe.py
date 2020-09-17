@@ -74,7 +74,7 @@ msg.attach(msgText)
 
 # attach image
     
-foreground = Image.open("https://github.com/Pratham31/AdmireME/blob/master/Congratulation.png")
+foreground = Image.open("https://i.ibb.co/tZhss9t/Congratulation.png")
 response = requests.get(image_url)
 img = Image.open(BytesIO(response.content))
 img.paste(foreground, (-20, 0), foreground)

@@ -29,7 +29,7 @@ You have to make your Email ID **PUBLIC** so that action can easily send mail to
 2. Copy the all repository contents to your repository where you want to add the **Admire ME**.
 
 ## Lets see how I made this Action
-## First of all Setup an Email Sending Account
+## 1. First of all Setup an Email Sending Account
 
 1. Create a new gmail account for sending the emails to the Contributors.
 2. Authorize Gmail to send automated emails via this tool https://myaccount.google.com/lesssecureapps
@@ -38,7 +38,7 @@ You have to make your Email ID **PUBLIC** so that action can easily send mail to
 
 3. And in the end create a [Github Secret](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets) Called `GKEY` and add your gmail password to it.
 
-## Setting up the action
+## 2. Setting up the action
 
 1. Make sure that your repository contains all the necessary files which are present in this repository.
 2. Click on Actions and `create an action`.
@@ -46,10 +46,10 @@ You have to make your Email ID **PUBLIC** so that action can easily send mail to
 
 3. Add code in `Admire.yml` to your workflow `yml` file.
 
-## Customize your email contents
+## 3. Customize your email contents
 
- - Replace the `senders_email` in `AdmireME.py` with your newly created `email address` (on line 65)
- - Replace the `msg['From']` value with your email name.
+ - Just Replace the `senders_email` in `AdmireME.py` file with your newly created `email address`
+ - And replace the `msg['From']` value with your email name.
 
 
 ## How to change the contribution triggers?

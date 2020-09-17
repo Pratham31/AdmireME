@@ -91,7 +91,7 @@ s_back = BytesIO()
 img.save(s_back, format='PNG')
 s_back = s_back.getvalue()
 img = BytesIO(s_back)
-finalimg = MIMEImage(background.read())
+finalimg = MIMEImage(img.read())
 finalimg.add_header('Content-Disposition', 'attachment', filename="You.jpg")
 msg.attach(finalimg)
 

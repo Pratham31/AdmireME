@@ -10,9 +10,9 @@
 
 You know when you admire someone, something gets happened and the human being feels so motivated and gets Positive vibes for self and starts the day with POSITIVE ENERGY. I just want each and every one student must contribute to open source and must be satisfied. My Action helps to get a smile 😊 on each and every Open Source Contributors and also encourages for contributing.
 
-# What it does?🤔
+# What does it do?🤔
 
-It will send Email with **Processed Congratulating Image of user's avatar and congratulating Note GIF**  .
+It will send an Email with **Processed Congratulating Image of user's avatar and congratulating Note GIF**  .
 
 # Aim and Impact💥
 

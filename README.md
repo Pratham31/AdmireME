@@ -1,3 +1,5 @@
+<img src="https://github.com/Pratham31/AdmireME/blob/master/AdmireMELogo.png" align="center"></img>
+
 <h1 align="center">Admire Me - Action which will encourage you to do more open source contribution.</h1>
 
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/Pratham31/AdmireME/blob/master/LICENSE)

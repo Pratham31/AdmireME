@@ -1,4 +1,6 @@
-<img src="https://github.com/Pratham31/AdmireME/blob/master/AdmireMELogo.png" align="center" width="400" height="400"></img>
+<div align="center">
+<img src="https://github.com/Pratham31/AdmireME/blob/master/AdmireMELogo.png" >
+</div>
 
 <h1 align="center">Admire Me - Action which will encourage you to do more open source contribution.</h1>
 

@@ -2,7 +2,7 @@ name: 'Admire-Me'
 description: 'Sends an email to the contributor with congratulating avatar image of the contributor.'
 author: 'Prathamesh Giri'
 branding:
-  icon: 'award'
+  icon: 'sunrise'
   color: 'black'
 
 on:

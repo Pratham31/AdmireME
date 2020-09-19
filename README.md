@@ -3,7 +3,8 @@
 </div>
 
 <h1 align="center">Admire Me - Action which will encourage you to do more open source contribution.</h1>
-
+<br>
+<br>
 
 # Motivation -
 ``` >> Do something today that your future self will thank you for.```

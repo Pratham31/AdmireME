@@ -9,19 +9,22 @@
 # Motivation -
 ``` >> Do something today that your future self will thank you for.```
 ``` >> Little things make big days.```
+<br>
 
 # Reason for developing this GitHub Action -
 
 You know when you admire someone, something gets happened and the human being feels so motivated and gets Positive vibes for self and starts the day with POSITIVE ENERGY. I just want each and every one student must contribute to open source and must be satisfied. My Action helps to get a smile 😊 on each and every Open Source Contributors and also encourages for contributing.
+<br>
 
 # What does it do?🤔
 
 It will send an Email with **Processed Congratulating Image of user's avatar and congratulating Note GIF**  .
+<br>
 
 # Aim and Impact💥
 
 This action will **ENCOURAGE** all future **open source contributors** to do more and more open source contributions and build positive vibes inside contributors
-
+<br>
 
 # How to test?🤔
 
@@ -64,8 +67,8 @@ You have to make your Email ID **PUBLIC** so that action can easily send mail to
 
 ## 3. Modify Email Contents 
 
- - Just Replace the `senders_email` in `AdmireME.py` file with your newly created `email address`
- - And replace the `msg['From']` value with your email name.
+ - You just have to Replace the `senders_email` in `AdmireME.py` file with your newly created `email address`
+ - And then replace the `msg['From']` with your email name.
 <br>
 
 ## Trigger Conditions?
@@ -87,7 +90,6 @@ on:
 1.  Issues - Opened
 2.  Pull Request - Opened
 
-You can change the job triggers according to your need.
 
 [Refer the official document from GitHub on Workflow Syntax.](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions)
 <br>

@@ -69,8 +69,9 @@ You can make your Email ID public just by going into ```settings->Emails->Keep m
 
 ## 3. Modify Email Contents 
 
- - You just have to Replace the `senders_email` in `AdmireME.py` file with your newly created `email address`
+ - You just have to Replace the `sender_mailID` in `AdmireME.py` file with your newly created `email address`
  - And then replace the `msg['From']` with your email name.
+ - that's it!!!!
 <br>
 
 ## Trigger Conditions?

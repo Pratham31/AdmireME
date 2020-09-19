@@ -32,7 +32,7 @@ This action will **ENCOURAGE** all future **open source contributors** to do mor
 
 ## Note:
 You have to make your Email ID **PUBLIC** so that action can easily send mail to User.
-You can make your Email ID public just by going into ```settings->
+You can make your Email ID public just by going into ```settings->Emails->Keep my email addresses private``` and Uncheck the Keep my email addresses private option.
 
 1. You just have to open a new issue on this [AdmireME](https://github.com/Pratham31/AdmireME) Repo.
 2. then You'll receive a email with processed your GitHub Avatar attachment.

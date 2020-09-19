@@ -48,8 +48,8 @@ You have to make your Email ID **PUBLIC** so that action can easily send mail to
 
 ## 1. First of all Setup an Email Sending Account
 
-1. Create a new gmail account for sending the emails to the Contributors.
-2. Authorize Gmail to send automated emails via this tool https://myaccount.google.com/lesssecureapps
+1. I Created a new gmail account for sending the emails to the Contributors.
+2. Then you have to authorize Gmail to send the automated emails via this https://myaccount.google.com/lesssecureapps
 
 ![](https://docs.bitnami.com/images/img/apps/common/google-security.png)
 

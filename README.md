@@ -48,7 +48,7 @@ You have to make your Email ID **PUBLIC** so that action can easily send mail to
 
 3. And in the end create a [Github Secret](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets) Called `GKEY` and add your gmail password to it.
 
-## 2. Setting up the action
+## 2. Setting up the action in your Repository
 
 1. Make sure that your repository contains all the necessary files which are present in this repository.
 2. Click on Actions and `create an action`.
@@ -56,13 +56,13 @@ You have to make your Email ID **PUBLIC** so that action can easily send mail to
 
 3. Add code in `Admire.yml` to your workflow `yml` file.
 
-## 3. Customize your email contents
+## 3. Modify Email Contents 
 
  - Just Replace the `senders_email` in `AdmireME.py` file with your newly created `email address`
  - And replace the `msg['From']` value with your email name.
 
 
-## How to change the contribution triggers?
+## Trigger Conditions?
 
 - Trigger Conditions which are used by me in this action are:
 

@@ -8,6 +8,7 @@
 
 # Motivation -
 ``` >> Do something today that your future self will thank you for.```
+<br>
 ``` >> Little things make big days.```
 <br>
 
@@ -19,6 +20,7 @@ You know when you admire someone, something gets happened and the human being fe
 # What does it do?🤔
 
 It will send an Email with **Processed Congratulating Image of user's avatar and congratulating Note GIF**  .
+Check out official Document of [GitHub Action](https://docs.github.com/en/actions) from GitHub.
 <br>
 
 # Aim and Impact💥
@@ -26,13 +28,14 @@ It will send an Email with **Processed Congratulating Image of user's avatar and
 This action will **ENCOURAGE** all future **open source contributors** to do more and more open source contributions and build positive vibes inside contributors
 <br>
 
-# How to test?🤔
+# How to test it?🤔
 
 ## Note:
 You have to make your Email ID **PUBLIC** so that action can easily send mail to User.
+You can make your Email ID public just by going into ```settings->
 
-1. Just open a new issue on this [AdmireME](https://github.com/Pratham31/AdmireME) Repo.
-2. You'll receive a personalized email (email account linked to your **Github**)
+1. You just have to open a new issue on this [AdmireME](https://github.com/Pratham31/AdmireME) Repo.
+2. then You'll receive a email with processed your GitHub Avatar attachment.
 
 ![](./.github/YouRockDemo.gif)
 
@@ -59,9 +62,8 @@ You have to make your Email ID **PUBLIC** so that action can easily send mail to
 ## 2. Setting up the action in your Repository
 
 1. Make sure that your repository contains all the necessary files which are present in this repository.
-2. Click on Actions and `create an action`.
+2. Click on the Actions tab and then `create an action`.
    ![](https://docs.github.com/assets/images/help/repository/actions-tab.png)
-
 3. Add code in `Admire.yml` to your workflow `yml` file.
 <br>
 

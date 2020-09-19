@@ -37,9 +37,10 @@ You have to make your Email ID **PUBLIC** so that action can easily send mail to
 
 1. Clone the repository.
 2. Copy the all repository contents to your repository where you want to add the **Admire ME**.
-
+<br>
+<br>
 ## Lets see how I made this Action
-
+<br>
 ## 1. First of all Setup an Email Sending Account
 
 1. Create a new gmail account for sending the emails to the Contributors.
@@ -48,7 +49,7 @@ You have to make your Email ID **PUBLIC** so that action can easily send mail to
 ![](https://docs.bitnami.com/images/img/apps/common/google-security.png)
 
 3. And in the end create a [Github Secret](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets) Called `GKEY` and add your gmail password to it.
-
+<br>
 ## 2. Setting up the action in your Repository
 
 1. Make sure that your repository contains all the necessary files which are present in this repository.
@@ -56,13 +57,12 @@ You have to make your Email ID **PUBLIC** so that action can easily send mail to
    ![](https://docs.github.com/assets/images/help/repository/actions-tab.png)
 
 3. Add code in `Admire.yml` to your workflow `yml` file.
-
+<br>
 ## 3. Modify Email Contents 
 
  - Just Replace the `senders_email` in `AdmireME.py` file with your newly created `email address`
  - And replace the `msg['From']` value with your email name.
-
-
+<br>
 ## Trigger Conditions?
 
 - Trigger Conditions which are used by me in this action are:
@@ -85,7 +85,7 @@ on:
 You can change the job triggers according to your need.
 
 [Refer the official document from GitHub on Workflow Syntax.](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions)
-
+<br>
 # How it looks like?
 
 <img src="https://github.com/Pratham31/AdmireME/blob/master/Output.gif" height="500" width="900" align="left"></img>

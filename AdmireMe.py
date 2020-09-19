@@ -2,7 +2,7 @@
 # 1. URL of user Avatar.
 # 2. Congratulation to User GIF Operation.
 # 3. Email Operation.
-# 4. Image Attachment.
+# 4. Image Attachment to the Mail.
 
 import cv2
 import json
@@ -70,7 +70,7 @@ msg['Subject'] = '@'+username+', Thank you for your Contribution.'
 msg['From'] = "Prathamesh Giri"
 msg['To'] = receiver_mailID
 msgText = MIMEText(
-    '<center><h1>Thank you &#129351; @'+username+'&#129351; | Congratulations!</h1><img style="width:100%;" src="https://i.ibb.co/vQCzVDK/devv.png"></img><center><p><t>Hello <b>@'+username+'</b>, <br><br>Thank you for your contribution in <b>'+org+'</b>.&#128519;<br><b>Note - Please find attached files.</b><br><br>~ Organization Maintainer <b>@'+org+'</b></p><center><img style="width:20em; height:auto;" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif"></img><br></br><br></br><br></br></center></center><div style="text-align:center;width:100%;padding:20px;background:black;color:white;">Powered by Github Actions &emsp; &emsp; &emsp; | &emsp; &emsp; &emsp; Made for DEV.to Hackathon.<br><br><br><center><img style="width:100%; height:auto;" src="https://i.ibb.co/TwNc306/Thanking-Note.gif"></img></center><div></div>', 'html')
+    '<center><h1>Thank you &#58130; @'+username+'&#58130;; | Congratulations!</h1><img style="width:100%;" src="https://i.ibb.co/vQCzVDK/devv.png"></img><center><p><t>Hello <b>@'+username+'</b>, <br><br>Thank you for your contribution in <b>'+org+'</b>.&#128519;<br><b>Note - Please find the attached files.</b><br><br>~ Organization Maintainer <b>@'+org+'</b></p><center><img style="width:20em; height:auto;" src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif"></img><br></br><br></br><br></br></center></center><div style="text-align:center;width:100%;padding:20px;background:black;color:white;">Powered by Github Actions &emsp; &emsp; &emsp; | &emsp; &emsp; &emsp; Made for DEV.to Hackathon.<br><br><br><img style="width:100%; height:auto;" src="https://i.ibb.co/TwNc306/Thanking-Note.gif"></img><div></div>', 'html')
 msg.attach(msgText)
 
 
@@ -87,10 +87,10 @@ img.paste(fimg, (10, 10), fimg)
 #f=file(filename)
 #finalimg=MIMEText(f.read())
 #finalimg = MIMEImage(img.read())
-s_back = BytesIO()
-img.save(s_back, format='PNG')
-s_back = s_back.getvalue()
-img = BytesIO(s_back)
+save_b = BytesIO()
+img.save(save_b, format='PNG')
+save_b = save_b.getvalue()
+img = BytesIO(save_b)
 finalimg = MIMEImage(img.read())
 finalimg.add_header('Content-Disposition', 'attachment', filename="You.jpg")
 msg.attach(finalimg)

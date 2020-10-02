@@ -46,10 +46,10 @@ You can make your Email ID public just by going into ```settings->Emails->Keep m
 <br>
 <br>
 
-## Lets see how I made this Action
+## Lets see how I made this Action❔
 <br>
 
-## 1. First of all Setup an Email Sending Account
+## 1. First of all Setup an Email Sending Account :email:
 
 1. I Created a new gmail account for sending the emails to the Contributors.
 2. Then you have to authorize Gmail to send the automated emails via this https://myaccount.google.com/lesssecureapps
@@ -59,7 +59,7 @@ You can make your Email ID public just by going into ```settings->Emails->Keep m
 3. And in the end create a [Github Secret](https://docs.github.com/en/actions/configuring-and-managing-workflows/creating-and-storing-encrypted-secrets) Called `GKEY` and add your gmail password to it.
 <br>
 
-## 2. Setting up the action in your Repository
+## 2. Setting up the action in your Repository :zap:
 
 1. Make sure that your repository contains all the necessary files which are present in this repository.
 2. Click on the Actions tab and then `create an action`.
@@ -67,7 +67,7 @@ You can make your Email ID public just by going into ```settings->Emails->Keep m
 3. Add code in `Admire.yml` to your workflow `yml` file.
 <br>
 
-## 3. Modify Email Contents 
+## 3. Modify Email Contents :pencil:
 
  - You just have to Replace the `sender_mailID` in `AdmireME.py` file with your newly created `email address`
  - And then replace the `msg['From']` with your email name.

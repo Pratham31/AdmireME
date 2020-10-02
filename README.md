@@ -17,18 +17,18 @@
 You know when you admire someone, something gets happened and the human being feels so motivated and gets Positive vibes for self and starts the day with POSITIVE ENERGY. I just want each and every one student must contribute to open source and must be satisfied. My Action helps to get a smile 😊 on each and every Open Source Contributors and also encourages for contributing.
 <br>
 
-# What does it do?🤔
+# What does it do? 🤔
 
 It will send an Email with **Processed Congratulating Image of user's avatar and congratulating Note GIF**  .
 Check out official Document of [GitHub Action](https://docs.github.com/en/actions) from GitHub.
 <br>
 
-# Aim and Impact💥
+# Aim and Impact 💥
 
 This action will **ENCOURAGE** all future **open source contributors** to do more and more open source contributions and build positive vibes inside contributors
 <br>
 
-# How to test it?🤔
+# How to test it? 🤔
 
 ## Note:
 You have to make your Email ID **PUBLIC** so that action can easily send mail to User.
@@ -39,14 +39,14 @@ You can make your Email ID public just by going into ```settings->Emails->Keep m
 
 ![](./.github/YouRockDemo.gif)
 
-# Wanna use it in your repo?
+# Wanna use it in your repo? 🤩
 
 1. Clone the repository.
 2. Copy the all repository contents to your repository where you want to add the **Admire ME**.
 <br>
 <br>
 
-## Lets see how I made this Action❔
+## Lets see how I made this Action ❔
 <br>
 
 ## 1. First of all Setup an Email Sending Account :email:

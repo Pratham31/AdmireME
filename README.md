@@ -103,7 +103,4 @@ on:
 
 <br>
 
-# And Got GitHub Action Participant Badge
-<div align="center">
-<img src="https://github.com/Pratham31/AdmireME/blob/master/AdmireMELogo.png" width ="500" height="350">
-</div>
+

@@ -101,5 +101,7 @@ on:
 
 <img src="https://github.com/Pratham31/AdmireME/blob/master/Output.gif" height="500" width="900" align="left"></img>
 
+<br>
+
 # And Got GitHub Action Participant Badge
 <img src="![badge](https://user-images.githubusercontent.com/56548231/101173681-ddc36180-3668-11eb-9949-3e0eb0434562.png)" height="500" width="900" align="left"></img>
